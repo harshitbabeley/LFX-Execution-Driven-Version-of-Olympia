@@ -30,11 +30,10 @@ There are no if, else, or switch statements based on object type.
 
 ## Usage
 
-harshit:~/LFX-Execution-Driven-Version-of-Olympia$ g++ describe_object.cpp -o describe_object
-harshit:~/LFX-Execution-Driven-Version-of-Olympia$ ./describe_object circle 
-A circle has a radius.
-harshit:~/LFX-Execution-Driven-Version-of-Olympia$ ./describe_object circle 2
-A circle has a radius.
-Perimeter: 12.5664
-Area: 12.5664
+1. Build: g++ describe_object.cpp -o describe_object
+2. Run : ./describe_object circle 2
+          A circle has a radius.
+          Perimeter: 12.5664
+          Area: 12.5664
+
 
