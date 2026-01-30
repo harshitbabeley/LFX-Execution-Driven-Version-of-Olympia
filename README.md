@@ -8,9 +8,9 @@ I used a parent interface class and registry for diffferent shape that inhertit 
 The program lets the user ask about an object (circle, square, rectangle) from the command line.
 Each object knows how to:
 
-1. describe itself
+1. Describe itself
 
-2. compute its own values (perimeter, area, etc.)
+2. Compute its own values (perimeter, area, etc.)
 
 The main function does not care what the object is. It just decribes the object and coputes the object paramters.
 
@@ -30,11 +30,9 @@ There are no if, else, or switch statements based on object type.
 
 ## Usage
 
-1. Build: g++ describe_object.cpp -o describe_object
-2. Run : <br>./describe_object circle 2 <br>
-          A circle has a radius. <br>
-          Perimeter: 12.5664 <br>
-          Area: 12.5664 <br>
+1. Build: `g++ describe_object.cpp -o describe_object`
+2. Run : <br>`./describe_object circle 2` <br>
+
 
 
 
