@@ -31,9 +31,10 @@ There are no if, else, or switch statements based on object type.
 ## Usage
 
 1. Build: g++ describe_object.cpp -o describe_object
-2. Run : ./describe_object circle 2
-          A circle has a radius.
-          Perimeter: 12.5664
-          Area: 12.5664
+2. Run : ./describe_object circle 2 <br>
+          A circle has a radius. \n
+          Perimeter: 12.5664 \n
+          Area: 12.5664 \n
+
 
 
