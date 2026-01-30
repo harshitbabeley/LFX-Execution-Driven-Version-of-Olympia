@@ -1,10 +1,10 @@
 ﻿# LFX-Execution-Driven-Version-of-Olympia
-##Pattern
+## Pattern
 
 I used a runtime factory + registry pattern with a common interface.
 The idea is simple: objects register themselves, and the program creates the requested object at runtime based on user input.
 
-##Description
+## Description
 
 The program lets the user ask about an object (circle, square, rectangle) from the command line.
 Each object knows how to:
@@ -15,7 +15,7 @@ Each object knows how to:
 
 The main function does not care what the object is. It just asks the object to do its job.
 
-##Method
+## Method
 
 1. Define a base interface (Shape) that exposes only what the main program needs
 
@@ -28,3 +28,4 @@ The main function does not care what the object is. It just asks the object to d
 5. Call common functions (describe, compute) through polymorphism
 
 There are no if, else, or switch statements based on object type.
+
